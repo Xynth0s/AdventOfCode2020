@@ -4,7 +4,7 @@ counter = 0
 datei = open(os.path.join(os.path.dirname(__file__), 'lis.txt'), 'r')
 liste = datei.readlines()
 datei.close()
-print(liste)
+# print(liste)
 x = 0
 y = 0
 
